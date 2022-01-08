@@ -1,5 +1,6 @@
-# Improper orders
-Which atom is central in your improper torsion?
+# Which atom is central in your improper torsion?
+
+The central atom is indexed from 1, i.e. 3 indicates the third atom.
 
 | Package    | Improper type       | Central atom | Links and notes                                                                                                                                            |
 |------------|---------------------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
