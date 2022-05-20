@@ -13,4 +13,5 @@ The central atom is indexed from 1, i.e. 3 indicates the third atom.
 | OpenFF     | Amber               | 3            | https://github.com/openforcefield/openff-toolkit/issues/746#issuecomment-710574144                                                                         |
 | CHARMM     | all?                | 1            | https://github.com/michellab/Sire/issues/193#issue-303038454                                                                                               |
 | MDAnalysis | all                 | any          | MDAnalysis does not check connectivity.                                                                                                                    |
-| NAMD       | all?                | 1            | Follows CHARMM                                                                                               
+| NAMD       | all?                | 1            | Follows CHARMM                                                                                                                                            |                                 
+| OpenMM     | all                 | 1            | http://docs.openmm.org/7.2.0/userguide/application.html#periodictorsionforce                                                                              |
