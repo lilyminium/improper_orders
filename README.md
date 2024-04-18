@@ -12,6 +12,6 @@ The central atom is indexed from 1, i.e. 3 indicates the third atom.
 | OpenFF     | Smirnoff (periodic) | 2            | https://github.com/openforcefield/openff-toolkit/issues/746#issuecomment-710574144                                                                         |
 | OpenFF     | Amber               | 3            | https://github.com/openforcefield/openff-toolkit/issues/746#issuecomment-710574144                                                                         |
 | CHARMM     | all?                | 1            | https://github.com/michellab/Sire/issues/193#issue-303038454                                                                                               |
-| MDAnalysis | all                 | any          | MDAnalysis does not check connectivity.                                                                                                                    |
+| MDAnalysis | all                 | any          | MDAnalysis does not check connectivity.  (However, calculating values of improper torsions assumes the central atom is first.)                             |
 | NAMD       | all?                | 1            | Follows CHARMM                                                                                                                                            |                                 
 | OpenMM     | all                 | 1            | http://docs.openmm.org/7.2.0/userguide/application.html#periodictorsionforce                                                                              |
