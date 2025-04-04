@@ -15,3 +15,4 @@ The central atom is indexed from 1, i.e. 3 indicates the third atom.
 | MDAnalysis | all                 | any          | MDAnalysis does not check connectivity.  (However, calculating values of improper torsions assumes the central atom is first.)                             |
 | NAMD       | all?                | 1            | Follows CHARMM                                                                                                                                            |                                 
 | OpenMM     | all                 | 1            | http://docs.openmm.org/7.2.0/userguide/application.html#periodictorsionforce                                                                              |
+| geomeTRIC  | OutOfPlane          | 1            | https://github.com/openforcefield/yammbs/pull/109#issuecomment-2776308271                                                                                 |
